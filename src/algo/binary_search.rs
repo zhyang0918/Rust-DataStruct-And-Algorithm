@@ -45,7 +45,8 @@ pub fn binary_search_recursive(nums: &[i32], target: i32) -> bool {
         return false;
     }
     let mid = nums.len() / 2;
-    return if nums[mid] == target {
+
+    if nums[mid] == target {
         true
     } else if nums[mid] < target {
         binary_search_recursive(&nums[mid + 1..], target)

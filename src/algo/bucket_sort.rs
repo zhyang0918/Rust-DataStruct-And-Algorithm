@@ -1,5 +1,5 @@
-use crate::algo::quick_sort::quick_sort;
 use crate::algo::common::get_min_max_in_nums;
+use crate::algo::quick_sort::quick_sort;
 
 pub fn bucket_sort(nums: &mut [i32]) {
     if nums.len() <= 1 {

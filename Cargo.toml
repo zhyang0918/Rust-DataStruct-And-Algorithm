@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+lighthouse = { git = "https://github.com/sigp/lighthouse" }
+tokio = { version = "1", features = ["full"] }
+web3 = { git = "https://github.com/tomusdrw/rust-web3" }
